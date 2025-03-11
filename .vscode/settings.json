@@ -1,0 +1,10 @@
+{
+    "livePreview.hostIP": "\" 192.168.0.111\"",
+    "livePreview.notifyOnOpenLooseFile": true,
+    "livePreview.defaultPreviewPath": "/index.html",
+    "livePreview.debugOnExternalPreview": true,
+    "livePreview.httpHeaders": {
+        
+        "Accept-Ranges": "bytes"
+    }
+}
