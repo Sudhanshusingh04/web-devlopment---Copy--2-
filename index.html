@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>my name-sudhanshu singh</div>
+    <form>
+        <div class="uper">
+            <h1>guess a number</h1>
+        <!-- <label for="guessfield">guess a number</label> -->
+
+        <input id="guessfield" class="guessfield" type="text" placeholder="enter number">
+
+        <button class="btn">submit</button>
+    </div>
+        <div class="result">
+            <p>privious guess<span class="gs"></span></p>
+            <p>remaining guess:<span class="lastresult">5 </span></p>
+            <p class="loworhigh"></p>
+        </div>
+
+    </form>
+
 </body>
+<script src="index.js"></script>
+
 </html>
